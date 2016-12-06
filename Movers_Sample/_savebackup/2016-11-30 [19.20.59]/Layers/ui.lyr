@@ -1,0 +1,238 @@
+<ObjectLayer>
+ <Layer Name="UI" GUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{15A01D06-6B99-480B-9907-776883EE095F}" Name="AreaTrigger7" HideOrder="0" Pos="987.32245,984.81848,50.001911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{12FC3821-40FF-49A1-8B46-5C961D909545}" Name="Start Trigger" HideOrder="0" Pos="975.65338,1009.634,50.059917" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="5" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-7.9179688,9.367981,0"/>
+     <Point Pos="5.1226196,19.640015,0"/>
+     <Point Pos="12.816589,10.131653,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{11020438-E249-4A23-855C-21E3DFEE26BB}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Prefab" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{1E8EF426-9415-4915-A1BE-0D13BB5756A2}" Name="Sphere_Controller1" HideOrder="0" Pos="980.8833,1015.3126,49.083656" FloorNumber="-1" Rotate="0.76604444,0,0,0.64278764" ColorRGB="56575" PrefabGUID="{93573FEF-0FD4-4F6C-8D2C-E862C4A09762}" PrefabName="Character_Controllers.Sphere_Controller"/>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{11020438-E249-4A23-855C-21E3DFEE26BB}" Name="AreaTrigger11" HideOrder="0" Pos="979.51617,1018.2239,50" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{2152EF48-62A8-4645-A420-D6ACB248DB44}" Name="AreaTrigger9" HideOrder="0" Pos="983.16071,992.75183,50.001911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="SplineDistributor" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{55A4A369-901F-4C6E-8E63-95B80FFF5157}" Name="SplineDistributor1" HideOrder="0" Pos="953.58197,1000.8298,49.183655" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="6717286" Geometry="" StepSize="4" Follow="1" ZAngle="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoStaticDecals="0" RecvWind="0" Occluder="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="1.8770432,0.90955657,-0.0024970912" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="4.4215088,4.4273682,-0.063194275" Back="5.6294818,2.7278712,-0.0074890815" Forw="3.1860113,6.1655893,-0.12016875" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-1.5940552,2.2426758,-0.073509216" Back="0.32198298,1.3046408,-0.07356827" Forw="-3.1559944,3.0073545,-0.073461078" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-1.7669067,7.4570313,-0.06300354" Back="-2.9574265,8.7240067,-0.10570075" Forw="-0.094407082,5.6771221,-0.0030204356" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0.152771,0.38366699,-0.010860443" Back="-0.49402046,2.7395773,-0.02749332" Forw="0.15467429,0.37673432,-0.010811498" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0.17352295,0.38909912,-0.013103485" Back="0.1715131,0.38219643,-0.01311805" Forw="0.67205215,2.101263,-0.0094907526" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="1.6514282,5.5307007,0" Back="1.1617423,3.8159895,-0.0047453553" Forw="1.6514282,5.5307007,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{E66F4A87-70BD-4C10-8718-7CB5F15F93C3}" Name="AreaTrigger2" HideOrder="0" Pos="1003.1238,1002.1744,50.050003" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{B4506B8D-5AC5-4EF3-89B6-9A49D29D576B}" Name="AreaTrigger4" HideOrder="0" Pos="1005.4877,994.41681,50.001911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{0ED00E9C-F334-44B2-9C62-48C9C59597C8}" Name="AreaTrigger5" HideOrder="0" Pos="999.51422,990.81818,50.050003" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{8374A39D-CC24-4569-8D36-AA8EBEA4FD9C}" Name="AreaTrigger6" HideOrder="0" Pos="987.63165,982.43347,50.001911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{F55339A1-1EC2-4522-BA3A-EB0CF79B9C67}" Name="AreaTrigger1" HideOrder="0" Pos="998.64063,1005.6002,50.050003" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{37F93AD0-A6A9-44F3-9341-578966BA0DD0}" Name="UIDisplayScript" HideOrder="0" Pos="994.09747,1026.6304,50.000099" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="UIDisplayScript" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="47" Class="UI:Canvas:Load" pos="-425,-345,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/moverex01.xml" Disabled="0"/>
+      </Node>
+      <Node Id="48" Class="UI:Canvas:Unload" pos="210,-170,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="49" Class="UI:Canvas:Load" pos="-440,100,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx02.xml" Disabled="0"/>
+      </Node>
+      <Node Id="50" Class="UI:Canvas:Unload" pos="160,190,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="56" Class="UI:Canvas:Load" pos="-455,415,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx03.xml" Disabled="0"/>
+      </Node>
+      <Node Id="57" Class="UI:Canvas:Unload" pos="155,505,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="58" Class="UI:Canvas:Load" pos="-455,745,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx04.xml" Disabled="0"/>
+      </Node>
+      <Node Id="59" Class="UI:Canvas:Unload" pos="155,855,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="60" Class="UI:Canvas:Load" pos="-435,1135,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx05.xml" Disabled="0"/>
+      </Node>
+      <Node Id="61" Class="UI:Canvas:Unload" pos="165,1225,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="62" Class="UI:Canvas:Load" pos="-455,1485,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx06.xml" Disabled="0"/>
+      </Node>
+      <Node Id="63" Class="UI:Canvas:Unload" pos="175,1575,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="64" Class="UI:Canvas:Load" pos="1040,-290,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx07.xml" Disabled="0"/>
+      </Node>
+      <Node Id="65" Class="UI:Canvas:Unload" pos="1630,-190,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="66" Class="UI:Canvas:Load" pos="1040,40,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx08.xml" Disabled="0"/>
+      </Node>
+      <Node Id="67" Class="UI:Canvas:Unload" pos="1650,140,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="68" Class="UI:Canvas:Load" pos="1030,360,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx09.xml" Disabled="0"/>
+      </Node>
+      <Node Id="69" Class="UI:Canvas:Unload" pos="1630,450,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="70" Class="UI:Canvas:Load" pos="1030,700,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx10.xml" Disabled="0"/>
+      </Node>
+      <Node Id="71" Class="UI:Canvas:Unload" pos="1640,790,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="72" Class="UI:Canvas:Load" pos="1040,1070,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx11.xml" Disabled="0"/>
+      </Node>
+      <Node Id="73" Class="UI:Canvas:Unload" pos="1670,1180,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="75" Class="entity:AreaTrigger" pos="-710,-260,0" flags="0" EntityGUID="{F55339A1-1EC2-4522-BA3A-EB0CF79B9C67}" EntityGUID_64="45221EC2F55339A1">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="77" Class="entity:AreaTrigger" pos="-700,100,0" flags="0" EntityGUID="{E66F4A87-70BD-4C10-8718-7CB5F15F93C3}" EntityGUID_64="4C1070BDE66F4A87">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="79" Class="entity:AreaTrigger" pos="-705,415,0" flags="0" EntityGUID="{135592F2-3B0B-4DF3-AAA6-F7EF82C26BC3}" EntityGUID_64="4DF33B0B135592F2">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="81" Class="entity:AreaTrigger" pos="-705,775,0" flags="0" EntityGUID="{B4506B8D-5AC5-4EF3-89B6-9A49D29D576B}" EntityGUID_64="4EF35AC5B4506B8D">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="83" Class="entity:AreaTrigger" pos="-705,1135,0" flags="0" EntityGUID="{0ED00E9C-F334-44B2-9C62-48C9C59597C8}" EntityGUID_64="44B2F3340ED00E9C">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="85" Class="entity:AreaTrigger" pos="-715,1485,0" flags="0" EntityGUID="{8374A39D-CC24-4569-8D36-AA8EBEA4FD9C}" EntityGUID_64="4569CC248374A39D">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="87" Class="entity:AreaTrigger" pos="770,-280,0" flags="0" EntityGUID="{15A01D06-6B99-480B-9907-776883EE095F}" EntityGUID_64="480B6B9915A01D06">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="89" Class="entity:AreaTrigger" pos="780,50,0" flags="0" EntityGUID="{085269DD-B6FC-48E7-8AD1-6C2919721A4E}" EntityGUID_64="48E7B6FC085269DD">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="91" Class="entity:AreaTrigger" pos="780,360,0" flags="0" EntityGUID="{2152EF48-62A8-4645-A420-D6ACB248DB44}" EntityGUID_64="464562A82152EF48">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="93" Class="entity:AreaTrigger" pos="780,690,0" flags="0" EntityGUID="{42C49BD1-674A-4A68-9232-540D467179AD}" EntityGUID_64="4A68674A42C49BD1">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="95" Class="entity:AreaTrigger" pos="790,1080,0" flags="0" EntityGUID="{11020438-E249-4A23-855C-21E3DFEE26BB}" EntityGUID_64="4A23E24911020438">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="97" Name="These scripts trigger the HUD display of each sample type based on the proximity of the player to the sample.  " Class="_comment" pos="-730,-450,0" flags="0"/>
+      <Node Id="98" Name="This node loads the Canvas UI file that you want to display" Class="_comment" pos="-420,-290,0" flags="0"/>
+      <Node Id="99" Name="This node unloads (turns off) the display of the UI file" Class="_comment" pos="210,-120,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="48" nodeOut="47" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="49" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="56" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="58" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="60" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="62" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="65" nodeOut="64" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="66" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="68" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="71" nodeOut="70" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="73" nodeOut="72" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="47" nodeOut="75" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="75" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="49" nodeOut="77" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="77" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="79" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="79" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="81" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="81" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="60" nodeOut="83" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="83" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="85" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="85" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="87" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="65" nodeOut="87" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="89" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="89" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="68" nodeOut="91" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="91" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="70" nodeOut="93" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="71" nodeOut="93" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="72" nodeOut="95" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="73" nodeOut="95" portIn="Activate" portOut="Leave" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{08E2A4A7-53E1-4323-93B7-18FDD01A27C6}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{42C49BD1-674A-4A68-9232-540D467179AD}" Name="AreaTrigger10" HideOrder="0" Pos="980.75916,997.4776,50.050003" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{085269DD-B6FC-48E7-8AD1-6C2919721A4E}" Name="AreaTrigger8" HideOrder="0" Pos="980.54474,988.40649,50.001911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{135592F2-3B0B-4DF3-AAA6-F7EF82C26BC3}" Name="AreaTrigger3" HideOrder="0" Pos="1006.6638,996.64893,50.050003" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{6D1A58FC-AC75-4B27-A85C-4F6D689EFC6A}" Name="Fish1" HideOrder="0" Pos="992.31256,1022.9614,54.220188" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" FlattenArea="507" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="3" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Fish">
+    <Properties>
+     <Boid nCount="100" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/fish/trout/trout_a.chr"/>
+     <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="250"/>
+     <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="1" MaxAnimSpeed="1.7" SpeedMax="4" SpeedMin="1"/>
+     <Options bActivate="1" bFollowPlayer="1" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="30"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
