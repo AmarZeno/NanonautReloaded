@@ -227,7 +227,7 @@
      <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
     </Properties>
    </Object>
-   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{6D1A58FC-AC75-4B27-A85C-4F6D689EFC6A}" Name="Fish1" HideOrder="0" Pos="992.31256,1022.9614,54.220188" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" FlattenArea="507" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="3" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Fish">
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{6D1A58FC-AC75-4B27-A85C-4F6D689EFC6A}" Name="Fish1" HideOrder="2" Pos="992.31256,1022.9614,54.220188" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" FlattenArea="507" Flags="2" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="3" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Fish">
     <Properties>
      <Boid nCount="100" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/fish/trout/trout_a.chr"/>
      <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="250"/>
