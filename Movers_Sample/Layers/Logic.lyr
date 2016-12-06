@@ -68,7 +68,7 @@
       <Node Id="318" Name="Example_11:_Moves_target_based_on_key_press_input_and_sets_another_object_to_blend_to_its_destination" Class="_commentbox" pos="-5070,8460.1689,0" flags="0">
        <Inputs TextSize="1" Color="1,1,1" DisplayFilled="1" DisplayBox="1" SortPriority="0"/>
        <ResizeBorder X="0" Y="0" Width="1930" Height="1850"/>
-       <NodeSize Width="1930" Height="1850"/>
+       <NodeSize Width="2142.38232421875" Height="1850"/>
       </Node>
       <Node Id="334" Class="Logic:Any" pos="-3700,8930,0" flags="0" InHideMask="1021" OutHideMask="1">
        <Inputs />
