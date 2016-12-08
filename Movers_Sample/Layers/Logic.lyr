@@ -1,10 +1,10 @@
 <ObjectLayer>
  <Layer Name="Logic" GUID="{3E0D6D4D-53F5-4354-B505-1779338F671B}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
   <LayerObjects>
-   <Object Type="Entity" Layer="Logic" LayerGUID="{3E0D6D4D-53F5-4354-B505-1779338F671B}" Id="{10310963-BE62-44A2-85FE-BD206F2FFDD2}" Name="Example 11" HideOrder="0" Pos="980.125,1007.5,50.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+   <Object Type="Entity" Layer="Logic" LayerGUID="{3E0D6D4D-53F5-4354-B505-1779338F671B}" Id="{10310963-BE62-44A2-85FE-BD206F2FFDD2}" Name="Example 11" HideOrder="0" Pos="980.125,1007.5,1.141824" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
     <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
      <Nodes>
-      <Node Id="287" Class="Movement:MoveEntityTo" pos="-3460,9090,0" flags="0" EntityGUID="{622839EB-6FF4-46AF-AE9A-1AC3F000EA44}" EntityGUID_64="46AF6FF4622839EB">
+      <Node Id="287" Class="Movement:MoveEntityTo" pos="-3460,9090,0" flags="0">
        <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="0" Value="40" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
       </Node>
       <Node Id="288" Class="Vec3:SubVec3" pos="-3710,9120,0" flags="0">
@@ -13,7 +13,7 @@
       <Node Id="289" Class="Debug:InputKey" pos="-4040,8820,0" flags="0">
        <Inputs Key="i" NonDevMode="1" KeyboardOnly="0"/>
       </Node>
-      <Node Id="290" Class="Movement:MoveEntityTo" pos="-3450,8690,0" flags="0" EntityGUID="{622839EB-6FF4-46AF-AE9A-1AC3F000EA44}" EntityGUID_64="46AF6FF4622839EB">
+      <Node Id="290" Class="Movement:MoveEntityTo" pos="-3450,8690,0" flags="0">
        <Inputs Destination="0,-0.1,0" DynamicDestination="1" ValueType="0" Value="40" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
       </Node>
       <Node Id="291" Class="Vec3:AddVec3" pos="-3700,8720,0" flags="0">
@@ -22,7 +22,7 @@
       <Node Id="292" Class="Debug:InputKey" pos="-4040,9660,0" flags="0">
        <Inputs Key="k" NonDevMode="1" KeyboardOnly="0"/>
       </Node>
-      <Node Id="293" Class="Movement:MoveEntityTo" pos="-3460,9520,0" flags="0" EntityGUID="{622839EB-6FF4-46AF-AE9A-1AC3F000EA44}" EntityGUID_64="46AF6FF4622839EB">
+      <Node Id="293" Class="Movement:MoveEntityTo" pos="-3460,9520,0" flags="0">
        <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="0" Value="40" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
       </Node>
       <Node Id="294" Class="Vec3:SubVec3" pos="-3710,9550,0" flags="0">
@@ -37,7 +37,7 @@
       <Node Id="297" Class="Debug:InputKey" pos="-4040,10070,0" flags="0">
        <Inputs Key="j" NonDevMode="1" KeyboardOnly="0"/>
       </Node>
-      <Node Id="298" Class="Movement:MoveEntityTo" pos="-3460,9940,0" flags="0" EntityGUID="{622839EB-6FF4-46AF-AE9A-1AC3F000EA44}" EntityGUID_64="46AF6FF4622839EB">
+      <Node Id="298" Class="Movement:MoveEntityTo" pos="-3460,9940,0" flags="0">
        <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="0" Value="40" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
       </Node>
       <Node Id="299" Class="Vec3:AddVec3" pos="-3710,9970,0" flags="0">
@@ -46,7 +46,7 @@
       <Node Id="303" Class="Movement:MoveEntityTo" pos="-4370,8640,0" flags="0" EntityGUID="{783BE473-7B94-4CF3-8F1C-DE6D3B759C4C}" EntityGUID_64="4CF37B94783BE473">
        <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="1" Value="0.3" EaseInDistance="0" EaseOutDistance="0" CoordSys="0"/>
       </Node>
-      <Node Id="304" Class="Entity:GetPos" pos="-4640,8650,0" flags="0" EntityGUID="{622839EB-6FF4-46AF-AE9A-1AC3F000EA44}" EntityGUID_64="46AF6FF4622839EB">
+      <Node Id="304" Class="Entity:GetPos" pos="-4640,8650,0" flags="0">
        <Inputs CoordSys="1"/>
       </Node>
       <Node Id="305" Class="Time:Time" pos="-5020,8600,0" flags="0">
@@ -208,7 +208,7 @@
      <GraphTokens />
     </FlowGraph>
    </Object>
-   <Object Type="TagPoint" Layer="Logic" LayerGUID="{3E0D6D4D-53F5-4354-B505-1779338F671B}" Id="{3CC2218B-747A-4AF2-A012-6B26D8365C37}" Name="TagPoint42" HideOrder="0" Pos="1021.2704,1009.4613,51.525002" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" EntityClass="TagPoint"/>
+   <Object Type="TagPoint" Layer="Logic" LayerGUID="{3E0D6D4D-53F5-4354-B505-1779338F671B}" Id="{3CC2218B-747A-4AF2-A012-6B26D8365C37}" Name="TagPoint42" HideOrder="0" Pos="1021.2704,1009.4613,2.5418255" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" EntityClass="TagPoint"/>
   </LayerObjects>
  </Layer>
 </ObjectLayer>
