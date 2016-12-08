@@ -1,0 +1,534 @@
+<ObjectLayer>
+ <Layer Name="UI" GUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{15A01D06-6B99-480B-9907-776883EE095F}" Name="AreaTrigger7" HideOrder="0" Pos="2320.4109,103.82417,5.05371" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Name="robot_head1" HideOrder="0" Parent="{31081B35-8079-4D3B-863D-24FA4CA90E9C}" Pos="-6.1035156e-005,0.00012207031,1.5000038" FloorNumber="-1" Rotate="1,-0,0,-7.4505806e-008" ColorRGB="65535" FlattenArea="0.02" Geometry="spaceship.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{63E5D11B-3161-47FD-BCCF-F993A28C2148}" Name="Light65" HideOrder="0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{12FC3821-40FF-49A1-8B46-5C961D909545}" Name="Start Trigger" HideOrder="0" Pos="2259.7896,142.24518,6.7314539" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="5" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-7.9179688,9.367981,0"/>
+     <Point Pos="5.1226196,19.640015,0"/>
+     <Point Pos="12.816589,10.131653,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{11020438-E249-4A23-855C-21E3DFEE26BB}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="CameraTarget" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{31081B35-8079-4D3B-863D-24FA4CA90E9C}" Name="Head_Tilt_Parent" HideOrder="0" Parent="{C2503AB1-CB64-4A89-9A78-EC4EC3E49B63}" Pos="0,0,-1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" EntityClass="CameraTarget"/>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{11020438-E249-4A23-855C-21E3DFEE26BB}" Name="AreaTrigger11" HideOrder="0" Pos="2262.3826,149.31146,6.0708313" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{8BB2FC44-C68B-4979-81DF-226B1812ECDD}" Name="Light66" HideOrder="0" Parent="{5FBFB06B-6669-461E-AF9E-FD93CAB16E60}" Pos="0.0028057098,-0.015651703,0.46854639" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="200" Radius="50" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{2152EF48-62A8-4645-A420-D6ACB248DB44}" Name="AreaTrigger9" HideOrder="0" Pos="2287.3667,111.75751,5.05371" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Camera" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{D352C74E-B29E-4A54-9330-82497CC0B3A4}" Name="Camera Controller Rig" HideOrder="0" Parent="{F506B9ED-3C38-4E84-851B-C7A876209641}" Pos="0,-10.52063,4.5862083" FloorNumber="-1" Rotate="0.99619472,-0.087155759,8.5359e-009,-3.0013602e-008" ColorRGB="16776960" FOV="1.0472" NearZ="0.2" FarZ="1024" EntityClass="CameraSource">
+    <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
+   </Object>
+   <Object Type="ParticleEntity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{38EDEB56-F87A-47D5-AC05-32FA344B6948}" Name="particles_turbulence.turbulence_2" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="-0.73876953,-1.1767883,-0.25682545" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" Scale="1.0309278,1.0309278,1.0309278" ColorRGB="65535" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="4" LodRatio="10" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="5" NetworkSync="0" ParticleEffect="particles_turbulence.turbulence_001" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="2" soclasses_SmartObjectClass="" SpeedScale="0" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{7D77B957-F20E-41EA-ADB1-6C7F54F6A3B7}" Name="robot_body" HideOrder="0" Pos="2287.9751,127.78577,7.7500954" FloorNumber="-1" Rotate="0.25881907,0,0,0.96592581" Scale="0.97000009,0.97000009,0.97000003" ColorRGB="65535" Geometry="null" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="0" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{FC089462-75DF-41BC-81F4-40808647838D}" Name="Light61" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="-2.1453857,-1.6296082,-0.72337914" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" ColorRGB="16776960" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="3" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="2" Radius="1.5" _nVersion="0">
+     <Color clrDiffuse="0.665387,0.000910581,0.000910581" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="0"/>
+     <Projector fProjectorFov="180" fProjectorNearPlane="180" texture_Texture=""/>
+     <Shadows nCastShadows="4" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="5" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{B6E21664-4768-4F06-A817-51BFD1C59C17}" Name="Awesome_Sphere" HideOrder="0" Pos="2287.9751,127.78577,7.5560942" FloorNumber="-1" Rotate="0.96592581,0,0,-0.25881916" Scale="0.36860001,0.36860001,0.36860001" ColorRGB="65535" Material="objects/charactermodels/r0-b/robot" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="0" EntityClass="RigidBodyEx">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/default/primitive_sphere.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="1"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="1000" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0.8" water_density="2000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_Asteroid="0" bT_Shield="0" bT_Ship="0"/>
+       <collisionType bT_Asteroid="0" bT_Shield="0" bT_Ship="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="1" bFixedDamping="0" max_time_step="0.01" sleep_speed="0.01" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="SplineDistributor" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{55A4A369-901F-4C6E-8E63-95B80FFF5157}" Name="SplineDistributor1" HideOrder="0" Pos="2259.1277,113.37086,4.2354536" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="6717286" Geometry="" StepSize="4" Follow="1" ZAngle="0" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoStaticDecals="0" RecvWind="0" Occluder="0">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="1.8770432,0.90955657,-0.0024970912" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="4.4215088,4.4273682,-0.063194275" Back="5.6294818,2.7278712,-0.0074890815" Forw="3.1860113,6.1655893,-0.12016875" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-1.5940552,2.2426758,-0.073509216" Back="0.32198298,1.3046408,-0.07356827" Forw="-3.1559944,3.0073545,-0.073461078" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-1.7669067,7.4570313,-0.06300354" Back="-2.9574265,8.7240067,-0.10570075" Forw="-0.094407082,5.6771221,-0.0030204356" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0.152771,0.38366699,-0.010860443" Back="-0.49402046,2.7395773,-0.02749332" Forw="0.15467429,0.37673432,-0.010811498" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0.17352295,0.38909912,-0.013103485" Back="0.1715131,0.38219643,-0.01311805" Forw="0.67205215,2.101263,-0.0094907526" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="1.6514282,5.5307007,0" Back="1.1617423,3.8159895,-0.0047453553" Forw="1.6514282,5.5307007,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{5FBFB06B-6669-461E-AF9E-FD93CAB16E60}" Name="BasicEntity3" HideOrder="0" Pos="2170.769,326.13226,19.785597" FloorNumber="-1" Rotate="-0.25881913,0,0,0.96592581" Scale="58.553822,58.553822,58.553818" ColorRGB="16776960" Material="_newpreview_" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="BasicEntity">
+    <Properties bCanTriggerAreas="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="monster_low.cgf" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="0" bRigidBody="1">
+      <CollisionFiltering>
+       <collisionIgnore bT_Asteroid="0" bT_Shield="0" bT_Ship="0"/>
+       <collisionType bT_Asteroid="0" bT_Shield="0" bT_Ship="0"/>
+      </CollisionFiltering>
+     </Physics>
+    </Properties>
+    <FlowGraph Description="" Group="MonsterChase" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Mission:GameTokenGet" pos="390,-390,0" flags="0">
+       <Inputs gametoken_Token="Level.Player.PlayerPosition"/>
+      </Node>
+      <Node Id="2" Class="Time:Time" pos="200,-500,0" flags="0">
+       <Inputs paused="0"/>
+      </Node>
+      <Node Id="1245" Class="Vec3:FromVec3" pos="800,-530,0" flags="0">
+       <Inputs vec3="0,0,0"/>
+      </Node>
+      <Node Id="1247" Class="Math:Calculate" pos="950,-440,0" flags="0">
+       <Inputs Operation="0" A="0" B="50"/>
+      </Node>
+      <Node Id="1248" Class="Vec3:ToVec3" pos="1170,-450,0" flags="0">
+       <Inputs x="976" y="0" z="5"/>
+      </Node>
+      <Node Id="1249" Class="Entity:SpawnArchetype" pos="1390,-560,0" flags="0">
+       <Inputs Archetype="" Name="" Pos="0,0,0" Rot="0,0,0" Scale="1,1,1"/>
+      </Node>
+      <Node Id="1250" Class="Game:Start" pos="301.3923,-823.31555,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="1251" Class="Time:Delay" pos="950,-830,0" flags="1">
+       <Inputs delay="5" resetOnInput="1"/>
+      </Node>
+      <Node Id="1252" Class="String:SetString" pos="840,-620,0" flags="0">
+       <Inputs In="Level.PhysicsActorEnemyTest.EnemyTest"/>
+      </Node>
+      <Node Id="1253" Class="Debug:DisplayMessage" pos="3200,-550,0" flags="0">
+       <Inputs message="fuck off" DisplayTime="0" posX="200" posY="50" fontSize="2" clr_Color="1,1,1" centered="0"/>
+      </Node>
+      <Node Id="1254" Class="Movement:MoveEntityTo" pos="2024.0582,-654.04449,0" flags="0">
+       <Inputs Destination="0,0,0" DynamicDestination="1" ValueType="0" Value="10" EaseInDistance="0" EaseOutDistance="0" CoordSys="1"/>
+      </Node>
+      <Node Id="1255" Class="Vec3:FromVec3" pos="2320,-660,0" flags="0">
+       <Inputs vec3="0,0,0"/>
+      </Node>
+      <Node Id="1256" Class="Vec3:FromVec3" pos="2339.4099,-425.47839,0" flags="0">
+       <Inputs vec3="0,0,0"/>
+      </Node>
+      <Node Id="1259" Class="Entity:RemoveEntity" pos="2900,-460,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="1260" Class="Math:Less" pos="2800,-620,0" flags="0">
+       <Inputs A="0" B="0"/>
+      </Node>
+      <Node Id="1262" Class="Math:Calculate" pos="2620,-380,0" flags="0">
+       <Inputs Operation="0" A="0" B="5"/>
+      </Node>
+      <Node Id="1267" Class="Logic:OR" pos="690,-880,0" flags="0">
+       <Inputs A="0" B="0"/>
+      </Node>
+      <Node Id="1268" Class="Logic:IfCondition" pos="620,-1070,0" flags="0">
+       <Inputs Condition="1"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="1245" nodeOut="1" portIn="vec3" portOut="OutValue" enabled="1"/>
+      <Edge nodeIn="1247" nodeOut="1" portIn="Activate" portOut="OutValue" enabled="1"/>
+      <Edge nodeIn="1254" nodeOut="1" portIn="Destination" portOut="OutValue" enabled="1"/>
+      <Edge nodeIn="1256" nodeOut="1" portIn="vec3" portOut="OutValue" enabled="1"/>
+      <Edge nodeIn="1" nodeOut="2" portIn="Activate" portOut="tick" enabled="1"/>
+      <Edge nodeIn="1262" nodeOut="2" portIn="Activate" portOut="tick" enabled="1"/>
+      <Edge nodeIn="1268" nodeOut="2" portIn="Activate" portOut="tick" enabled="1"/>
+      <Edge nodeIn="1247" nodeOut="1245" portIn="A" portOut="y" enabled="1"/>
+      <Edge nodeIn="1248" nodeOut="1247" portIn="y" portOut="Out" enabled="1"/>
+      <Edge nodeIn="1249" nodeOut="1248" portIn="Pos" portOut="Result" enabled="1"/>
+      <Edge nodeIn="1254" nodeOut="1249" portIn="Start" portOut="Succeeded" enabled="1"/>
+      <Edge nodeIn="1254" nodeOut="1249" portIn="entityId" portOut="Succeeded" enabled="1"/>
+      <Edge nodeIn="1259" nodeOut="1249" portIn="Entity" portOut="Succeeded" enabled="1"/>
+      <Edge nodeIn="1251" nodeOut="1250" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="1252" nodeOut="1250" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="1268" nodeOut="1250" portIn="In" portOut="output" enabled="1"/>
+      <Edge nodeIn="1249" nodeOut="1251" portIn="Spawn" portOut="out" enabled="1"/>
+      <Edge nodeIn="1249" nodeOut="1252" portIn="Archetype" portOut="Out" enabled="1"/>
+      <Edge nodeIn="1260" nodeOut="1255" portIn="A" portOut="y" enabled="1"/>
+      <Edge nodeIn="1260" nodeOut="1255" portIn="Activate" portOut="y" enabled="1"/>
+      <Edge nodeIn="1262" nodeOut="1256" portIn="A" portOut="y" enabled="1"/>
+      <Edge nodeIn="1253" nodeOut="1259" portIn="Show" portOut="Done" enabled="1"/>
+      <Edge nodeIn="1259" nodeOut="1260" portIn="Activate" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="1260" nodeOut="1262" portIn="B" portOut="Out" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{A8845F36-0994-4931-AB69-F6907AE8BD2C}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{2A097D7D-60CB-4FA2-A78F-AA656A5E3EAF}" Name="Light64" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="-0.20361328,-1.9142151,1.96451" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" ColorRGB="65535" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="3" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="2" Radius="1.5" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="0"/>
+     <Projector fProjectorFov="180" fProjectorNearPlane="180" texture_Texture=""/>
+     <Shadows nCastShadows="4" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="1" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{AA15A780-3061-4F3C-AF34-10410C21299D}" Name="Light62" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="2.0582275,-1.5847473,-0.72338009" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" ColorRGB="65535" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="3" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="2" Radius="1.5" _nVersion="0">
+     <Color clrDiffuse="0.665387,0.000910581,0.000910581" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="0"/>
+     <Projector fProjectorFov="180" fProjectorNearPlane="180" texture_Texture=""/>
+     <Shadows nCastShadows="4" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="5" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{E66F4A87-70BD-4C10-8718-7CB5F15F93C3}" Name="AreaTrigger2" HideOrder="0" Pos="2336.2122,121.18006,5.1018019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{B4506B8D-5AC5-4EF3-89B6-9A49D29D576B}" Name="AreaTrigger4" HideOrder="0" Pos="2338.5762,113.42249,5.05371" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{0ED00E9C-F334-44B2-9C62-48C9C59597C8}" Name="AreaTrigger5" HideOrder="0" Pos="2332.6025,109.82386,5.1018019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{8374A39D-CC24-4569-8D36-AA8EBEA4FD9C}" Name="AreaTrigger6" HideOrder="0" Pos="2320.7202,101.43916,5.05371" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{2C6B0FA1-9AB6-4D00-B890-3377407F0F52}" Name="particles_turbulence.turbulence_1" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="0.69787598,-1.0740662,-0.21832991" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" Scale="1.0309278,1.0309278,1.0309278" ColorRGB="16776960" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="1" LodRatio="1" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="5" NetworkSync="0" ParticleEffect="particles_turbulence.turbulence_001" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="2" soclasses_SmartObjectClass="" SpeedScale="0" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{F55339A1-1EC2-4522-BA3A-EB0CF79B9C67}" Name="AreaTrigger1" HideOrder="0" Pos="2331.729,124.6059,5.1018019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="CameraTarget" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{C2503AB1-CB64-4A89-9A78-EC4EC3E49B63}" Name="Controller_Ref_Box_Move" HideOrder="0" Pos="2287.9751,127.78577,8.7200928" FloorNumber="-1" Rotate="0.86602545,0,0,0.49999994" Scale="0.97000009,0.97000009,0.97000003" ColorRGB="16776960" EntityClass="CameraTarget"/>
+   <Object Type="Prefab" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{F255EEB7-CA2F-48A9-BEFA-89830395C0FA}" Name="ballz1" HideOrder="0" Pos="2282.2678,149.23248,6.8017988" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="56575" PrefabGUID="{BFA27063-8B9F-4107-A2FC-5138CD0CDBE0}" PrefabName="DebugSpawnPrefab.ballz"/>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{1835B3C4-0292-475F-8CD6-14956821BDE0}" Name="Light63" HideOrder="0" Parent="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" Pos="0.0054931641,6.4595642,5.8168697" FloorNumber="-1" Rotate="0.86602545,0,0,-0.49999991" ColorRGB="16776960" OutdoorOnly="1" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="3" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="5" Radius="12" _nVersion="0">
+     <Color clrDiffuse="0.665387,0.701102,0.0612461" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="0"/>
+     <Projector fProjectorFov="180" fProjectorNearPlane="180" texture_Texture=""/>
+     <Shadows nCastShadows="4" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{37F93AD0-A6A9-44F3-9341-578966BA0DD0}" Name="UIDisplayScript" HideOrder="0" Pos="2203.4602,72.428406,13.403865" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="UIDisplayScript" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="47" Class="UI:Canvas:Load" pos="-425,-345,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/moverex01.xml" Disabled="0"/>
+      </Node>
+      <Node Id="48" Class="UI:Canvas:Unload" pos="210,-170,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="49" Class="UI:Canvas:Load" pos="-440,100,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx02.xml" Disabled="0"/>
+      </Node>
+      <Node Id="50" Class="UI:Canvas:Unload" pos="160,190,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="56" Class="UI:Canvas:Load" pos="-455,415,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx03.xml" Disabled="0"/>
+      </Node>
+      <Node Id="57" Class="UI:Canvas:Unload" pos="155,505,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="58" Class="UI:Canvas:Load" pos="-455,745,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx04.xml" Disabled="0"/>
+      </Node>
+      <Node Id="59" Class="UI:Canvas:Unload" pos="155,855,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="60" Class="UI:Canvas:Load" pos="-435,1135,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx05.xml" Disabled="0"/>
+      </Node>
+      <Node Id="61" Class="UI:Canvas:Unload" pos="165,1225,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="62" Class="UI:Canvas:Load" pos="-455,1485,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx06.xml" Disabled="0"/>
+      </Node>
+      <Node Id="63" Class="UI:Canvas:Unload" pos="175,1575,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="64" Class="UI:Canvas:Load" pos="1040,-290,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx07.xml" Disabled="0"/>
+      </Node>
+      <Node Id="65" Class="UI:Canvas:Unload" pos="1630,-190,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="66" Class="UI:Canvas:Load" pos="1040,40,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx08.xml" Disabled="0"/>
+      </Node>
+      <Node Id="67" Class="UI:Canvas:Unload" pos="1650,140,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="68" Class="UI:Canvas:Load" pos="1030,360,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx09.xml" Disabled="0"/>
+      </Node>
+      <Node Id="69" Class="UI:Canvas:Unload" pos="1630,450,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="70" Class="UI:Canvas:Load" pos="1030,700,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx10.xml" Disabled="0"/>
+      </Node>
+      <Node Id="71" Class="UI:Canvas:Unload" pos="1640,790,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="72" Class="UI:Canvas:Load" pos="1040,1070,0" flags="0">
+       <Inputs CanvasPathname="Levels/Samples/Movers_Sample/UI/MoverEx11.xml" Disabled="0"/>
+      </Node>
+      <Node Id="73" Class="UI:Canvas:Unload" pos="1670,1180,0" flags="0">
+       <Inputs CanvasId="0"/>
+      </Node>
+      <Node Id="75" Class="entity:AreaTrigger" pos="-710,-260,0" flags="0" EntityGUID="{F55339A1-1EC2-4522-BA3A-EB0CF79B9C67}" EntityGUID_64="45221EC2F55339A1">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="77" Class="entity:AreaTrigger" pos="-700,100,0" flags="0" EntityGUID="{E66F4A87-70BD-4C10-8718-7CB5F15F93C3}" EntityGUID_64="4C1070BDE66F4A87">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="79" Class="entity:AreaTrigger" pos="-705,415,0" flags="0" EntityGUID="{135592F2-3B0B-4DF3-AAA6-F7EF82C26BC3}" EntityGUID_64="4DF33B0B135592F2">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="81" Class="entity:AreaTrigger" pos="-705,775,0" flags="0" EntityGUID="{B4506B8D-5AC5-4EF3-89B6-9A49D29D576B}" EntityGUID_64="4EF35AC5B4506B8D">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="83" Class="entity:AreaTrigger" pos="-705,1135,0" flags="0" EntityGUID="{0ED00E9C-F334-44B2-9C62-48C9C59597C8}" EntityGUID_64="44B2F3340ED00E9C">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="85" Class="entity:AreaTrigger" pos="-715,1485,0" flags="0" EntityGUID="{8374A39D-CC24-4569-8D36-AA8EBEA4FD9C}" EntityGUID_64="4569CC248374A39D">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="87" Class="entity:AreaTrigger" pos="770,-280,0" flags="0" EntityGUID="{15A01D06-6B99-480B-9907-776883EE095F}" EntityGUID_64="480B6B9915A01D06">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="89" Class="entity:AreaTrigger" pos="780,50,0" flags="0" EntityGUID="{085269DD-B6FC-48E7-8AD1-6C2919721A4E}" EntityGUID_64="48E7B6FC085269DD">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="91" Class="entity:AreaTrigger" pos="780,360,0" flags="0" EntityGUID="{2152EF48-62A8-4645-A420-D6ACB248DB44}" EntityGUID_64="464562A82152EF48">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="93" Class="entity:AreaTrigger" pos="780,690,0" flags="0" EntityGUID="{42C49BD1-674A-4A68-9232-540D467179AD}" EntityGUID_64="4A68674A42C49BD1">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="95" Class="entity:AreaTrigger" pos="790,1080,0" flags="0" EntityGUID="{11020438-E249-4A23-855C-21E3DFEE26BB}" EntityGUID_64="4A23E24911020438">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="97" Name="These scripts trigger the HUD display of each sample type based on the proximity of the player to the sample.  " Class="_comment" pos="-730,-450,0" flags="0"/>
+      <Node Id="98" Name="This node loads the Canvas UI file that you want to display" Class="_comment" pos="-420,-290,0" flags="0"/>
+      <Node Id="99" Name="This node unloads (turns off) the display of the UI file" Class="_comment" pos="210,-120,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="48" nodeOut="47" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="49" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="56" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="58" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="60" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="62" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="65" nodeOut="64" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="66" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="68" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="71" nodeOut="70" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="73" nodeOut="72" portIn="CanvasId" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="47" nodeOut="75" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="75" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="49" nodeOut="77" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="77" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="79" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="79" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="81" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="81" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="60" nodeOut="83" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="83" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="85" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="85" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="87" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="65" nodeOut="87" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="89" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="89" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="68" nodeOut="91" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="91" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="70" nodeOut="93" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="71" nodeOut="93" portIn="Activate" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="72" nodeOut="95" portIn="Activate" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="73" nodeOut="95" portIn="Activate" portOut="Leave" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{08E2A4A7-53E1-4323-93B7-18FDD01A27C6}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{42C49BD1-674A-4A68-9232-540D467179AD}" Name="AreaTrigger10" HideOrder="0" Pos="2284.9651,116.48328,5.1018019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{63D107D8-43DF-4421-A8DB-AFCDD418210F}" Name="Light67" HideOrder="0" Parent="{5FBFB06B-6669-461E-AF9E-FD93CAB16E60}" Pos="-0.011978149,0.49521828,0.16424441" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="_newpreview_" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="500" Radius="50" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{E5A1D0DB-A2C6-425F-8DD7-D2C18C70E75B}" Name="Controller_Prefab_Logic" HideOrder="0" Pos="2192.6909,53.86084,15.042304" FloorNumber="-1" Rotate="0.96592581,0,0,-0.2588191" Scale="0.97000003,0.97000003,0.97000003" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="Entity:EntityId" pos="-550,-130,0" flags="0" EntityGUID="{F506B9ED-3C38-4E84-851B-C7A876209641}" EntityGUID_64="4E843C38F506B9ED">
+       <Inputs />
+      </Node>
+      <Node Id="3" Class="Entity:EntityId" pos="-520,-20,0" flags="0" EntityGUID="{B6E21664-4768-4F06-A817-51BFD1C59C17}" EntityGUID_64="4F064768B6E21664">
+       <Inputs />
+      </Node>
+      <Node Id="4" Class="Module:Call_Character_Controller_Robot" pos="-150,-110,0" flags="0">
+       <Inputs Instanced="1" InstanceID="-1" Controller_Ref_Box_Pitch="0" Controller_Ref_Box_Move="0" Awesome_Sphere="0" Robot_Head="0" Camera_Rig="0" Robot_Body="0" Head_Tilt_Parent="0"/>
+      </Node>
+      <Node Id="5" Class="Game:Start" pos="-400,-190,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="8" Class="Entity:EntityId" pos="-500,40,0" flags="0" EntityGUID="{117A0E11-71B1-4EF4-8B6D-91F1403336DA}" EntityGUID_64="4EF471B1117A0E11">
+       <Inputs />
+      </Node>
+      <Node Id="9" Class="Entity:EntityId" pos="-550,110,0" flags="0" EntityGUID="{D352C74E-B29E-4A54-9330-82497CC0B3A4}" EntityGUID_64="4A54B29ED352C74E">
+       <Inputs />
+      </Node>
+      <Node Id="10" Class="Entity:EntityId" pos="-550,-80,0" flags="0" EntityGUID="{C2503AB1-CB64-4A89-9A78-EC4EC3E49B63}" EntityGUID_64="4A89CB64C2503AB1">
+       <Inputs />
+      </Node>
+      <Node Id="12" Class="Entity:EntityId" pos="-480,180,0" flags="0" EntityGUID="{7D77B957-F20E-41EA-ADB1-6C7F54F6A3B7}" EntityGUID_64="41EAF20E7D77B957">
+       <Inputs />
+      </Node>
+      <Node Id="13" Class="Entity:EntityId" pos="-510,250,0" flags="0" EntityGUID="{31081B35-8079-4D3B-863D-24FA4CA90E9C}" EntityGUID_64="4D3B807931081B35">
+       <Inputs />
+      </Node>
+      <Node Id="17" Class="Entity:EntityInfo" pos="-160,-280,0" flags="0" EntityGUID="{D352C74E-B29E-4A54-9330-82497CC0B3A4}" EntityGUID_64="4A54B29ED352C74E">
+       <Inputs />
+      </Node>
+      <Node Id="18" Class="Mission:GameTokenSet" pos="260,-290,0" flags="0">
+       <Inputs gametoken_Token="GettingStarted_GT.3P_CameraID" TokenValue=""/>
+      </Node>
+      <Node Id="21" Class="Entity:ChildAttach" pos="194.12434,-8.9138727,0" flags="1" GraphEntity="0">
+       <Inputs KeepTransform="0" DisablePhysics="1"/>
+      </Node>
+      <Node Id="22" Class="Entity:EntityId" pos="-90,140,0" flags="1" EntityGUID="{FC089462-75DF-41BC-81F4-40808647838D}" EntityGUID_64="41BC75DFFC089462">
+       <Inputs />
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="4" nodeOut="2" portIn="Controller_Ref_Box_Pitch" portOut="Id" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="3" portIn="Awesome_Sphere" portOut="Id" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="4" portIn="Attach" portOut="Done" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="4" portIn="Activate" portOut="Done" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="5" portIn="Call" portOut="output" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="5" portIn="Get" portOut="output" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="8" portIn="Robot_Head" portOut="Id" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="9" portIn="Camera_Rig" portOut="Id" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="10" portIn="Controller_Ref_Box_Move" portOut="Id" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="12" portIn="Robot_Body" portOut="Id" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="13" portIn="Head_Tilt_Parent" portOut="Id" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="17" portIn="Activate" portOut="Id" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="17" portIn="TokenValue" portOut="Id" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="22" portIn="Child" portOut="Id" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{27D96ECA-AE16-47FD-8E27-537574B541FE}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{085269DD-B6FC-48E7-8AD1-6C2919721A4E}" Name="AreaTrigger8" HideOrder="0" Pos="2284.7507,107.41218,5.05371" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Prototype="{48F28129-2FCE-4505-B2C2-1ED4DFD9FDBA}" Type="EntityArchetype" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{935308E6-41FA-4A3E-A766-9043751F5F58}" Name="PhysicsActorEnemyTest.EnemyTest1" HideOrder="0" Pos="2272.5181,132.66046,6.198905" FloorNumber="-1" Rotate="-0.4617486,0,0,0.88701081" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1"/>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{DBE3C2EC-C89B-4307-B204-4F1F9B02D4E6}" Name="Light60" HideOrder="0" Pos="1961.5712,1596.7628,529.58582" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="5" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="5" Radius="100" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" fShadowBlurStrength="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="CameraTarget" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{F506B9ED-3C38-4E84-851B-C7A876209641}" Name="Controller_Ref_Box_Pitch" HideOrder="0" Parent="{C2503AB1-CB64-4A89-9A78-EC4EC3E49B63}" Pos="-0.00030517578,0.00036621094,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" EntityClass="CameraTarget"/>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{135592F2-3B0B-4DF3-AAA6-F7EF82C26BC3}" Name="AreaTrigger3" HideOrder="0" Pos="2339.7522,115.65461,5.1018019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{6D1A58FC-AC75-4B27-A85C-4F6D689EFC6A}" Name="Fish1" HideOrder="0" Pos="2201.6753,68.75946,17.623955" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" FlattenArea="507" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="3" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Fish">
+    <Properties>
+     <Boid nCount="100" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/fish/trout/trout_a.chr"/>
+     <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="1" FactorAlign="0" FactorCohesion="1" FactorSeparation="10" FieldOfViewAngle="250"/>
+     <Movement FactorAvoidLand="10" FactorHeight="0.4" FactorOrigin="0.1" FactorRandomAcceleration="2" HeightMax="20" HeightMin="1" MaxAnimSpeed="1.7" SpeedMax="4" SpeedMin="1"/>
+     <Options bActivate="1" bFollowPlayer="1" bNoLanding="0" bObstacleAvoidance="0" Radius="20" VisibilityDist="30"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="UI" LayerGUID="{2D393236-9137-4C99-BBC0-4CDD909DFB90}" Id="{793CE3FF-675A-4432-BAF6-CFF26CFEC87D}" Name="AreaTrigger12" HideOrder="0" Pos="2286.7227,133.2262,6.471632" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

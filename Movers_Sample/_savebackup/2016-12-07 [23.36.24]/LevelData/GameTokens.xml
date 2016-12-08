@@ -1,0 +1,8 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="Player.PlayerPosition" Type="Vec3" Value="0,0,0" LocalOnly="0"/>
+  </LevelLibrary>
+  <Library Name="GettingStarted_GT"/>
+ </GameTokensLibrary>
+</GameTokens>

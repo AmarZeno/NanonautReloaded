@@ -1,6 +1,6 @@
-<download name="movers_sample" type="Map">
+<download name="Movers_Sample" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="4469525" md5="70e13a41a8d9e306278a196788fb7409"/>
+  <file src="level.pak" dest="level.pak" size="5089842" md5="ff14b0fdf9d3af00899cf9d7d1c877c1"/>
  </files>
 </download>
